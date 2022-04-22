@@ -1,0 +1,51 @@
+
+
+@import "variables";
+
+@media screen and (max-width: 700px){
+
+    .PortadaIndex{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: $ancho;
+    }
+
+
+    .RecomendacionesBody{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+.RemomendacionesIndex{
+    font-size: $letramediana;
+}
+
+.ImagenFondo {
+    width: $alto;
+    height: $ancho;
+}
+
+
+    .VideoIndex1{
+        width: $ancho;
+        height: $alto;   
+        margin-left: auto;
+    }
+
+    .VideoIndex2{
+        width: $ancho;
+        height: $alto;  
+    }
+
+    .RedesIndex{
+        display: flex;
+        flex-direction: column;
+        font-size:$ancho;
+        margin-top: $margin;
+    }
+
+
+
+}

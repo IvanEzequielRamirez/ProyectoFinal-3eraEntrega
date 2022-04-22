@@ -1,0 +1,76 @@
+
+
+.GaleriaContainer{
+    margin-top:80px;
+    justify-content: $posicion;
+
+
+    .RemomendacionesIndex{
+        text-align: $posicion;
+        text-decoration: $estilo;
+        margin-top: 50px;
+        animation-name: aparecer14;
+        animation-duration: 8s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+    }
+
+.ContainerFotos{
+    margin-left: 50px;
+
+
+.foto4{
+    transition: height 5s, width 5s;
+
+}
+
+.foto4:hover{
+    height: 380px; width: 240px;
+    transform:scale(1.0);
+}
+
+.foto3{
+    transition: height 5s, width 5s;
+
+}
+
+.foto3:hover{
+    height: 380px; width: 240px;
+    transform:scale(1.0);
+}
+
+
+
+.foto2{
+    transition: height 5s, width 5s;
+
+}
+
+.foto2:hover{
+    height: 380px; width: 240px;
+    transform:scale(1.0);
+}
+
+
+.foto1{
+    transition: height 5s, width 5s;
+
+}
+
+.foto1:hover{
+    height: 380px; width: 240px;
+    transform:scale(1.0);
+}
+
+}
+
+
+.ReseñasIndex{
+    text-align: $posicion;
+    color: $ColorBody;
+    text-decoration: $estilo;
+    margin-top: $margin;
+    margin-bottom: $margin;
+}
+
+}

@@ -1,0 +1,37 @@
+
+@import "variables";
+
+.ContactoContainer{
+    margin-left: $letramediana;
+    margin-top: $margin+50px;
+
+.RedesIndex{
+    margin-top:$ancho;
+}
+
+}
+
+
+
+.FooterIndex{
+    margin-top: $margin+50px;
+    margin-left: $margin+50px;
+
+
+.Recomendados{
+    color: $secundary-color;
+    text-align: $posicion;
+    font-size: medium;
+    margin-top: $margin+50px;
+}
+
+.ListaRecomendados{
+    color: $secundary-color;
+    font-size: $FuenteTitulo;
+}
+
+.VolverArriba{
+    font-size: $FuenteTitulo;
+    color: $secundary-color;
+}
+}

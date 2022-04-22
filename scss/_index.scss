@@ -1,0 +1,66 @@
+
+@import "variables";
+
+.HeaderContainer{
+
+    .InicioRecomendadas{
+        display: flex;
+        margin-top: $margin;
+        margin-bottom: $margin;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+
+    
+    .TituloIndex{
+        color: blue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: bold;
+        animation-name: aparecer3;
+        animation-duration: 5s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     margin-top: $margin+40px;
+    
+    }
+    
+    
+    .ParrafoIndex{
+        
+        animation-name: aparecer3;
+        animation-duration: 5s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+    }
+    
+ 
+ 
+    
+    .RemomendacionesIndex{
+        text-align: $posicion;
+        text-decoration: $estilo;
+        margin-top: $margin;
+        animation-name: aparecer14;
+        animation-duration: 8s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+    }
+
+    .Fixed{
+        width: $margin+30px;
+        height: $margin+30px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        color: black;
+        padding-right: 1px;
+        text-indent: 0px;
+        text-align: $posicion;
+        background-color: chartreuse;
+        font-family: 'Pacifico', cursive;
+        margin-left: $alto+140px;
+        
+        }
+
+}
